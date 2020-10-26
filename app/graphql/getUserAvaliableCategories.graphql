@@ -1,0 +1,39 @@
+query getUserAvaliableCategories {
+  getUserAvaliableCategories {
+    category {
+      id
+      translate {
+        id
+        PL
+        EN
+        GER
+        RU
+        ES
+      }
+    }
+    words {
+      id
+      translate {
+        id
+        PL
+        EN
+        GER
+        RU
+        ES
+      }
+      category {
+        id
+        translate {
+          id
+          PL
+          EN
+          GER
+          RU
+          ES
+        }
+      }
+    }
+    bought
+    amount
+  }
+}

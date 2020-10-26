@@ -1,0 +1,6 @@
+mutation facebooklogin($fbUniqid: String!, $email: String!) {
+  facebooklogin(fbUniqid: $fbUniqid, email: $email) {
+    access_token
+    refresh_token
+  }
+}

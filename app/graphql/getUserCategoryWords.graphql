@@ -1,0 +1,14 @@
+query getUserCategoryWords($category: String!) {
+  getUserCategoryWords(category: $category) {
+    word {
+      id
+      translate {
+        PL
+        EN
+        GER
+        RU
+        ES
+      }
+    }
+  }
+}

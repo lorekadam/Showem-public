@@ -1,0 +1,21 @@
+query getSelectedCategoriesWords($selected: [String!]) {
+  getSelectedCategoriesWords(selected: $selected) {
+    id
+    translate {
+      PL
+      EN
+      GER
+      RU
+      ES
+    }
+    category {
+      translate {
+        PL
+        EN
+        GER
+        RU
+        ES
+      }
+    }
+  }
+}

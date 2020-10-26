@@ -1,0 +1,16 @@
+query getUserCategories {
+  getUserCategories {
+    id
+    basic
+    bought
+    translate {
+      id
+      PL
+      EN
+      GER
+      RU
+      ES
+    }
+    icon
+  }
+}

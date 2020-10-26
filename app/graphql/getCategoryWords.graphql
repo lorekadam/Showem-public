@@ -1,0 +1,23 @@
+query getCategoryWords($category: String!) {
+  getCategoryWords(category: $category) {
+    id
+    have
+    translate {
+      PL
+      EN
+      GER
+      RU
+      ES
+    }
+    category {
+      id
+      translate {
+        PL
+        EN
+        GER
+        RU
+        ES
+      }
+    }
+  }
+}

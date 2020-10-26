@@ -1,0 +1,13 @@
+query getAllCategories {
+  getAllCategories {
+    id
+    basic
+    translate {
+      PL
+      EN
+      GER
+      RU
+      ES
+    }
+  }
+}

@@ -1,0 +1,13 @@
+mutation randomCategoryWords($category: String!) {
+  randomCategoryWords(category: $category) {
+    id
+    have
+    translate {
+      PL
+      EN
+      GER
+      RU
+      ES
+    }
+  }
+}

@@ -1,0 +1,6 @@
+mutation createUserCategory($category: String!) {
+  createUserCategory(category: $category) {
+    ok
+    category
+  }
+}
